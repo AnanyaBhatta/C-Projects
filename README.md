@@ -1,60 +1,229 @@
-# EECS-281-Projects
-Technical Portfolio
+C++ Programming | Data Structures & Algorithms
 
-Featured Projects
-1. Priority Queue Implementations
-Technologies: C++17, STL, Templates, Object-Oriented Programming
+University of Michigan – Ann Arbor
+Courses: EECS 280 – Programming and Introductory Data Structures | EECS 281 – Data Structures and Algorithms
+Primary Language: C++17
 
-Implemented multiple priority queue data structures to explore how different internal representations affect performance and memory usage.
+EECS 281 – Data Structures and Algorithms
+
+Focus: Algorithm Design, Computational Complexity, Heaps, Priority Queues, Hashing, Sorting, and Efficient Data Retrieval
+
+Project 1: Stock Trading Simulation
+
+Technologies: C++, STL, Priority Queues
+
+Developed a simulated stock trading system that processes buy and sell orders using priority-based matching.
+
+Key concepts:
+
+Priority queue applications
+
+Custom comparators
+
+Order matching and processing
+
+Efficient data retrieval
+
+Algorithm complexity and performance optimization
+
+Skills demonstrated: Selecting appropriate data structures for event-driven processing and designing efficient algorithms.
+
+Project 2: Priority Queue Implementations
+
+Technologies: C++, Templates, Heaps, Object-Oriented Programming
+
+Implemented multiple priority queue data structures to evaluate differences in internal organization, operation efficiency, and memory usage.
 
 Key implementations:
-- Sorted Priority Queue: Maintains elements in sorted order for priority-based access.
-- Binary Heap Priority Queue: Uses a heap-based structure to efficiently manage prioritized elements.
-- Pairing Heap Priority Queue: Uses dynamically linked nodes to support heap operations.
-Technical concepts:
-- Generic programming with C++ templates
-- Custom comparator functions
-- Dynamic memory management
-- Heap invariants and tree-based structures
-- Asymptotic time complexity
-- Testing and debugging
-Key takeaway: Explored tradeoffs between array-based and pointer-based data structures, including how implementation choices influence operation complexity and efficiency.
-2. Log Management & Search System
-Technologies: C++17, STL, Sorting Algorithms, Associative Containers
 
-Developed a command-line log management application designed to process, organize, and search structured log entries.
+Sorted Priority Queue: Maintains elements in sorted order for priority-based access.
+
+Binary Heap Priority Queue: Uses a heap structure to efficiently manage prioritized elements.
+
+Pairing Heap Priority Queue: Uses dynamically linked nodes to support heap operations.
+
+Key concepts:
+
+Template-based generic programming
+
+Custom comparator functions
+
+Heap invariants
+
+Pointer-based tree structures
+
+Dynamic memory allocation
+
+Time and space complexity
+
+Testing and debugging
+
+Skills demonstrated: Data structure design, generic programming, complexity analysis, and performance tradeoffs.
+
+Project 3: Log Management & Search System
+
+Technologies: C++, STL, Sorting, Hash-Based Indexing
+
+Developed an interactive command-line application to process, organize, and retrieve structured log data.
 
 Key functionality:
-- Parse and organize structured log records
-- Search entries by timestamp, category, and keywords
-- Maintain and manipulate a user-controlled excerpt list
-- Sort entries using multiple comparison criteria
-- Support interactive command-line operations
-Technical concepts:
-- File input and parsing
-- Sorting and searching algorithms
-- Hash-based indexing
-- Efficient data retrieval
-- Data organization using STL containers
-- Command-line interface design
-Key takeaway: Applied data structures and algorithms to build a system supporting efficient searches and interactive management of structured data.
-3. Stock Trading Simulation
-Technologies: C++17, STL, Priority Queues
 
-Developed a stock market simulation applying priority queue data structures to process trading activity and manage orders.
+Parse structured log entries containing timestamps, categories, and messages
 
-Technical concepts:
-- Priority queue applications
-- Comparator-based ordering
-- Algorithm efficiency
-- Input processing
-- Data structure selection
-Key takeaway: Explored how efficient data structures can support real-time, priority-based processing in a simulated financial environment.
+Search log data using timestamp ranges, categories, and keywords
+
+Organize records for efficient retrieval
+
+Maintain and modify an interactive excerpt list
+
+Support multiple search and sorting operations through a command-line interface
+
+Key concepts:
+
+File I/O and structured data parsing
+
+Merge sort and custom comparison criteria
+
+Hash-based indexing
+
+Searching and efficient data retrieval
+
+STL associative containers
+
+Command-line interface design
+
+Computational complexity analysis
+
+Skills demonstrated: Data indexing, algorithm optimization, interactive application design, and efficient management of large collections of records.
 
 Technical Skills
-Category	Technologies & Concepts
-Programming	C++17, Object-Oriented Programming
-Data Structures	Priority Queues, Heaps, Trees, Hash Tables, Maps, Vectors
-Algorithms	Sorting, Searching, Hashing, Algorithm Analysis
-Development	Git, Debugging, Testing, Command-Line Applications
-Core Concepts	Memory Management, Time Complexity, Space Complexity, STL
+
+Category
+Technologies & Concepts
+
+Programming
+C++, Object-Oriented Programming, Generic Programming
+
+Data Structures
+Vectors, Linked Lists, Stacks, Queues, Priority Queues, Binary Heaps, Pairing Heaps, Hash Tables, Trees
+
+Algorithms
+Sorting, Searching, Hashing, Classification, Algorithm Optimization
+
+C++ STL
+Vectors, Maps, Sets, Unordered Maps, Priority Queues, Iterators
+
+Software Engineering
+Modular Design, File I/O, Debugging, Unit Testing, Command-Line Applications
+
+Core Concepts
+Pointers, Dynamic Memory, Recursion, Templates, Polymorphism, Time and Space Complexity
+
+
+
+
+EECS 280 – Programming and Introductory Data Structures
+
+Focus: Object-Oriented Programming, Data Structures, Memory Management, Testing, and Software Design
+
+Project 1: Statistical Analysis
+
+Technologies: C++, File I/O, Statistical Algorithms
+
+Developed a statistical analysis program to process numerical datasets and calculate descriptive statistics.
+
+Key concepts:
+
+File input and data processing
+
+Mean, median, standard deviation, and other statistical calculations
+
+Modular programming and reusable functions
+
+Input validation and testing
+
+Numerical computation
+
+Skills demonstrated: Data processing, algorithm implementation, and procedural abstraction.
+
+Project 2: Computer Vision – Seam Carving
+
+Technologies: C++, Image Processing, Algorithms
+
+Implemented content-aware image resizing using seam carving, an algorithm that identifies and removes low-energy paths through an image.
+
+Key concepts:
+
+Image representation and pixel manipulation
+
+Energy calculations
+
+Two-dimensional data structures
+
+Algorithmic image processing
+
+Memory management
+
+Skills demonstrated: Algorithm implementation, multidimensional data processing, and computational problem-solving.
+
+Project 3: Euchre Card Game
+
+Technologies: C++, Object-Oriented Programming, Polymorphism
+
+Developed a simulation of the Euchre card game using object-oriented design principles.
+
+Key concepts:
+
+Classes and inheritance
+
+Polymorphism and virtual functions
+
+Abstract interfaces
+
+Game logic and decision-making algorithms
+
+Unit testing and debugging
+
+Skills demonstrated: Object-oriented software architecture, abstraction, and implementation of complex program behavior.
+
+Project 4: Machine Learning – Text Classification
+
+Technologies: C++, STL, Maps, Sets, Classification Algorithms
+
+Implemented a text classification program using a probabilistic machine learning approach to categorize documents based on their contents.
+
+Key concepts:
+
+Natural language processing fundamentals
+
+Naive Bayes classification
+
+Word frequency analysis
+
+Associative containers
+
+Training data processing
+
+Probability-based classification
+
+Skills demonstrated: Applied machine learning fundamentals, data organization, and statistical algorithm implementation.
+
+Project 5: Text Editor
+
+Technologies: C++, Doubly Linked Lists, Iterators
+
+Implemented a text editing system using a custom data structure to manage text and cursor movement.
+
+Key concepts:
+
+Doubly linked lists
+
+Iterator operations
+
+Dynamic memory management
+
+Data structure invariants
+
+Cursor navigation and text manipulation
+
+Skills demonstrated: Custom data structure implementation, pointer manipulation, and memory management.
